@@ -1,0 +1,18 @@
+$TTL 86400
+@   IN  SOA ns1.lune33.com. admin.lune33.com. (
+        1		    ; serial 
+        3600        ; refresh
+        1800        ; retry
+        604800      ; expire
+        86400       ; minimum
+)
+
+@   IN NS ns1.lune33.com.
+ns1 IN A 10.49.3.1
+
+@   IN  NS  ns2.lune33.com.
+ns2 IN  A   10.49.3.2
+
+@   IN A 10.49.2.1
+www IN CNAME lune33.com.
+exp IN CNAME lune33.com.

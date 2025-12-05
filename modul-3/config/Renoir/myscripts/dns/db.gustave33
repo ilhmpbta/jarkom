@@ -1,0 +1,19 @@
+$TTL 86400
+@   IN  SOA ns1.gustave33.com. admin.gustave33.com. (
+        1		    ; serial 
+        3600        ; refresh
+        1800        ; retry
+        604800      ; expire
+        86400       ; minimum
+)
+
+@   IN NS ns1.gustave33.com.
+ns1 IN A  10.49.3.1
+
+@   IN  NS  ns2.gustave33.com.
+ns2 IN  A   10.49.3.2
+
+@   IN A 10.49.2.3
+www IN CNAME gustave33.com
+expedition IN NS ns1.expedition.gustave33.com.
+ns1.expedition IN A 10.49.3.2

@@ -1,0 +1,11 @@
+$TTL 86400
+@   IN  SOA ns1.2.49.10.in-addr.arpa. admin.2.49.10.in-addr.arpa. (
+        1          ; serial 
+        3600       ; refresh
+        1800       ; retry
+        604800     ; expire
+        86400      ; minimum
+)
+
+@   IN NS ns1.gustave33.com.
+3   IN PTR ns1.gustave33.com.
